@@ -1,4 +1,5 @@
 using System.Reflection;
+using Api;
 using Api.Configs;
 using Api.Data;
 using Api.Endpoints;
@@ -7,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Db")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("Db")));
 
 builder.Services.AddMediatR(op => op.RegisterServicesFromAssembly(typeof(Program).Assembly));
 builder.Services.AddEndpointsApiExplorer();

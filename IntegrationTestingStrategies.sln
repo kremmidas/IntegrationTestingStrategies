@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTestingStrategie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTestingStrategies.ServiceDefaults", "IntegrationTestingStrategies.ServiceDefaults\IntegrationTestingStrategies.ServiceDefaults.csproj", "{C75BA06D-B6B1-4163-9C51-695DE54F1F05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.Tests", "Aspire.Tests\Aspire.Tests.csproj", "{812D13CA-DEE1-410C-BED3-B548703F6D55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C75BA06D-B6B1-4163-9C51-695DE54F1F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C75BA06D-B6B1-4163-9C51-695DE54F1F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C75BA06D-B6B1-4163-9C51-695DE54F1F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{812D13CA-DEE1-410C-BED3-B548703F6D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{812D13CA-DEE1-410C-BED3-B548703F6D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{812D13CA-DEE1-410C-BED3-B548703F6D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{812D13CA-DEE1-410C-BED3-B548703F6D55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

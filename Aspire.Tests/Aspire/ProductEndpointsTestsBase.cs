@@ -5,6 +5,11 @@ public abstract class ProductEndpointsTestsBase : IAsyncLifetime
     protected HttpClient _client;
     private ApiFixture _fixture;
 
+    protected ProductEndpointsTestsBase()
+    {
+        _client = _fixture.CreateClient();
+    }
+
     public async Task DisposeAsync()
     {
         await _fixture.DisposeAsync();
